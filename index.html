@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+	
+</head>
+<body>
+
+<div class="calc-bg">
+		<p class="titlu"><strong>CASIO	HS-8VA</strong></p>
+	<div class="screen">
+		<p id="numbers"> </p>
+	</div>
+
+
+	<div class="buttones">
+		<div class="number1">
+			<button onclick="number(7)">7</button>
+			<button onclick="number(8)">8</button>
+			<button onclick="number(9)">9</button>	
+			<button onclick="number('+')">+</button>		
+		</div>
+
+		<div class="number2">
+			<button onclick="number(4)">4</button>
+			<button onclick="number(5)">5</button>
+			<button onclick="number(6)">6</button>	
+			<button onclick="number('-')">-</button>		
+		</div>
+
+		<div class="number3">
+			<button onclick="number(1)">1</button>
+			<button onclick="number(2)">2</button>
+			<button onclick="number(3)">3</button>
+			<button onclick="number('*')">*</button>
+		</div>
+
+		<div>
+			<button onclick="number(0)">0</button>
+			<button onclick="op()">=</button>
+			<button onclick="number('/')">/</button>
+			<button onclick="clr()">C</button>
+		</div>
+	</div>	
+
+
+</div>
+		
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

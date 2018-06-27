@@ -1,0 +1,74 @@
+body{
+	text-align: center;
+	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/blue-tech-circuit-board-technology-animated-background-video-graphic-design-hd-1920x1080_ewva7rwie__F0000.png");
+	background-size: 2000px;
+}
+
+button{
+	width:120px;
+	height:120px;
+	font-size:100px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius:100%;
+	color:black;
+	background-color: #b3ccff;
+	border-color: black;
+	opacity: 100%;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: #80aaff;
+    color: black;
+    cursor:pointer;
+}
+
+button{
+	margin:2px ;
+}
+
+button:focus{
+	outline:none;
+}
+
+.screen{
+	background-color: #cce6ff;
+	width:530px;
+	height:100px;
+	border-radius: 10px;  
+    margin: 10px auto;
+    margin-top:1px;
+    display: inline-block;
+    border: 1px  solid black;
+
+}
+
+
+
+#numbers{
+	font-size: 90px;
+	text-align: center;
+	display: inline;
+}
+
+.calc-bg{
+	margin:0px auto;
+	width:560px;
+	height:710px;
+	border-radius: 10px;
+	background-color:#165435;
+	border: 1px  solid black;
+	 display: inline-block;
+	 margin-top: 73px;
+
+}
+
+.buttones{
+	margin-top: 30px;
+}
+
+.titlu{
+	font-family: 'Orbitron', sans-serif;
+	color:#9e0000;
+}
